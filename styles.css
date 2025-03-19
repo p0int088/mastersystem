@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  color: #333333;
+
+  overflow-x: hidden;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+a {
+  display: inline-flex;
+
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  box-sizing: border-box;
+
+  font-size: 20px;
+  line-height: 120%;
+  font-family: "PT Sans", sans-serif;
+  color: #333333;
+
+  border: none;
+}
+
+button {
+  position: relative;
+
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  color: #333333;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
